@@ -18,6 +18,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+/*
+|--------------------------------------------------------------------------
+| IDENTITAS DIRI
+|--------------------------------------------------------------------------
+|
+| Nama : Lutfian Rahdiansyah
+| NIM : 10121127
+| Kelas : IF-4
+| Matkul : Penerapan Teknologi Internet
+*/
+
+
 Route::get('/', function () {
     return view('welcome');
 });

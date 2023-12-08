@@ -1,0 +1,33 @@
+IDENTITAS DIRI
+Nama : Lutian Rahdiansyah
+NIM : 10121127
+Kelas : IF-4
+
+INSTALLATION
+1. Clone Project dari github (https://github.com/lutfianRhdn/E-Learning)
+2. jalankan perintah `composer install`
+3. jalankan perintah `npm install`
+4. jalankan perintah `cp .env.example .env`
+5. jalankan perintah `php artisan key:generate`
+6. jalankan perintah `php artisan migrate --seed`
+7. jalankan perintah `php artisan serve`
+8. jalankan perintah `npm run dev`
+9. Project dapat diakses di http://localhost:8000
+note: pastikan nama database sesuai dengan yang ada di file .env
+
+INFORMASI
+1. ketika melakukan login sebagai admin, pastikan sudah memiliki kelas, student, teacher, dan couse
+
+AKUN
+
+ADMIN
+email: admin@test.com
+password : password
+
+TEACHER
+email: teacher@test.com
+password : password
+
+STUDENT
+email: student@test.com
+password : password
